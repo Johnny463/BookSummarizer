@@ -33,29 +33,6 @@ python app.py
 ```
 The program will extract text from the PDF, generate a summary, and create a new summarized PDF in the same directory.
 
-## Customization
-You can customize the summarization process by modifying the app.py file. Some possible customizations include:
-
-Adjusting the length of the summary-
-Chunk size-
-Per page readabliity-Font style
-In this Code, I used simple `RecursiveTextsplitter` to Reduce Hallucination.
-
-You can use:
-
-`NLTK Text Splitter `
-
-`Spacy Text Splitter`
-
-`Markdown Text Splitter`
-
-`Token Text Splitter`
-
-For Large files, and better results.
-
-
-
-
 
 
 ## License
