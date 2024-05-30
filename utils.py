@@ -46,9 +46,9 @@ def create_pdf(summary):
 
     # add title and author in the center of first page
     pdf.set_font('Arial', 'B', 16)
-    pdf.cell(0, 10, 'Summary of Crime and Punishment', 0, 1, 'C')
+    pdf.cell(0, 10, 'Summary', 0, 1, 'C')
     pdf.set_font('Arial', 'I', 12)
-    pdf.cell(0, 1, 'by Fyodor Dostoevsky', 0, 1, 'C')
+    
 
     # add space between title and content
     pdf.ln(8)
@@ -58,7 +58,7 @@ def create_pdf(summary):
     pdf.multi_cell(0, 10, summary)
 
     # Saving the PDF file
-    pdf_output_path = 'Crime_and_Punishment_Summary.pdf'
+    pdf_output_path = 'FinalSummary.pdf'
     pdf.output(pdf_output_path)
 
     pdf_output_path
