@@ -14,9 +14,8 @@ Make sure to add environment of 'OPEN_API_KEY' with your actual OpenAI API key.O
 import os
 os.environ['OPENAI_API_KEY'] = 'YOUR_API_KEY'
 ```
-This approach allows you to securely store and use your API key without hardcoding it directly into your code. It's a best practice for managing sensitive information like API keys.
 
-and don't forget to replace placeholders like `"your_pdf.pdf"` with actual file paths or relevant information.
+
 
 
 
